@@ -1,7 +1,7 @@
 # Wazuh SIEM Home Lab
 
 Self-practice project for blue team and SOC skills: Wazuh server
-installed from scratch in a virtual home lab (OVA + Quickstart),
+installed from scratch in a virtual home lab (OVA + Quickstart on Rocky Linux),
 with a static IP so agents connect reliably.
 
 ## What's Covered
@@ -15,8 +15,9 @@ with a static IP so agents connect reliably.
 |------|---------|
 | Hypervisor | VMware Workstation |
 | Wazuh Server | OVA deployment + Quickstart install |
+| Quickstart OS | Rocky Linux |
 | Network | Static IP on the Wazuh server |
-| Dashboard | https://<WAZUH_SERVER_IP> |
+| Dashboard | `https://<WAZUH_SERVER_IP>` |
 
 ## Hands-on
 1. [Install via OVA](docs/03-install-ova.md)
@@ -31,12 +32,12 @@ Agents are configured with the manager's address. If the server IP
 changes (DHCP), agents lose connection. A static IP avoids that.
 
 ## Roadmap
+- [x] Install Wazuh server (OVA + Quickstart)
+- [x] Assign a static IP
 - [ ] Connect Windows/Linux agents
 - [ ] Explore security alerts and rules
 - [ ] File integrity monitoring and vulnerability detection
 - [ ] Custom rules and decoders
 
 ## Connect
-LinkedIn: <your-profile-link>
-
-#Wazuh #SIEM #BlueTeam #SOC #HomeLab
+[LinkedIn](www.linkedin.com/in/-faisalmehmood69)
